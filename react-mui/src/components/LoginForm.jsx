@@ -6,14 +6,18 @@ import useStyles from "./styles.js";
 const LoginForm = () => {
   const classes = useStyles();
   return (
-    <form>
-      <div>
-        <label htmlFor="email">Email</label>
-        <input id="email" type="text" />
+    <form className={classes.form}>
+      <div className={classes.div}>
+        <label htmlFor="email" className={classes.label}>
+          Email
+        </label>
+        <input className={classes.input} id="email" type="text" />
       </div>
-      <div>
-        <label htmlFor="password">Password</label>
-        <input id="password" type="password" />
+      <div className={classes.div}>
+        <label className={classes.label} htmlFor="password">
+          Password
+        </label>
+        <input className={classes.input} id="password" type="password" />
       </div>
       <Button className={classes.root}>Submit</Button>
     </form>

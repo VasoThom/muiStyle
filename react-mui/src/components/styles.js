@@ -10,5 +10,25 @@ const useStyles = makeStyles({
     height: 48,
     padding: "0 30px",
   },
+  form: {
+    display: "flex",
+    flexDirection: "column",
+    maxWidth: "300px",
+    margin: " 0 auto",
+  },
+  label: {
+    fontWeight: "bold",
+  },
+  input: {
+    padding: "10px",
+    border: "1px solid #ccc",
+    borderRadius: "4px",
+    marginBottom: "15px",
+  },
+  div: {
+    display: "flex",
+    flexDirection: "column",
+    marginBottom: "15px",
+  },
 });
 export default useStyles;
